@@ -1,0 +1,19 @@
+FUTLIFE - PROJETO ANDROID (Beta 4.7)
+
+Este ZIP contem o codigo-fonte para compilar o APK, NAO e um APK instalavel.
+
+MODO 1 - Android Studio (PC):
+1. Extraia o ZIP.
+2. No Android Studio, escolha Open e selecione a pasta extraida.
+3. Aguarde a sincronizacao do Gradle com internet.
+4. Menu Build > Build Bundle(s) / APK(s) > Build APK(s).
+5. Instale o arquivo app/build/outputs/apk/debug/app-debug.apk no celular.
+
+MODO 2 - GitHub Actions (sem PC Android Studio):
+1. Crie um repositorio GitHub e envie os arquivos do ZIP, incluindo a pasta .github.
+2. Na aba Actions, execute Gerar APK FutLife > Run workflow.
+3. Quando terminar, baixe o artefato FutLife-APK.
+4. Extraia o APK do artefato e instale no Android.
+
+O jogo e offline e o HTML esta incorporado ao aplicativo.
+ATENCAO: Os salvamentos antigos do navegador/HTML nao sao automaticamente transferidos ao APK; o armazenamento local do app e separado.

@@ -1,0 +1,8 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'com.futlife.game'
+ compileSdk 35
+ defaultConfig { applicationId 'com.futlife.game'; minSdk 23; targetSdk 28; versionCode 47; versionName '4.7' }
+ buildTypes { release { minifyEnabled false } }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
